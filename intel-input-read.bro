@@ -5,5 +5,5 @@
 redef Intel::read_files += {
 
 ### Local static additions##
-    "/usr/local/bro/bro-intel/local.intel"
+    "/usr/local/bro/doh-IPs-Dom.intel"
 };
