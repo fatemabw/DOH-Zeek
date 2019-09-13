@@ -3,7 +3,6 @@
 @load policy/integration/collective-intel
 
 redef Intel::read_files += {
-
-### Local static additions##
-    "/usr/local/bro/doh-IPs-Dom.intel"
+  ### Local static additions##
+  fmt("%s/doh-IPs-Dom.intel", @DIR)
 };
