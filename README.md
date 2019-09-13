@@ -5,8 +5,8 @@ Load the doh-IPs-Dom.intel in your zeek cluster with intel framework enabled, an
 
 Use: 
 
-Copy the doh-IPs-Dom.intel in your zeek install path (in this case it's: /usr/local/bro/)
+cd <prefix>/share/bro/site/
+  
+git clone git://github.com/fatemabw/DOH-Zeek.git doh
 
-Copy the intel-input-read.bro to your site folder and load it in local.bro using:
-
-@load site/intel-input-read.bro
+echo "@load doh" >> local.bro
