@@ -5,7 +5,7 @@ Load the doh-IPs-Dom.intel in your zeek cluster with intel framework enabled, an
 
 Use: 
 ```
-cd <prefix>/share/bro/site/
+cd <prefix>/share/zeek/site/
 git clone git://github.com/fatemabw/DOH-Zeek.git doh
 echo "@load doh" >> local.zeek
 ```
