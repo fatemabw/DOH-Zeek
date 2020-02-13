@@ -7,5 +7,5 @@ Use:
 ```
 cd <prefix>/share/bro/site/
 git clone git://github.com/fatemabw/DOH-Zeek.git doh
-echo "@load doh" >> local.bro
+echo "@load doh" >> local.zeek
 ```
