@@ -1,6 +1,7 @@
 @load frameworks/intel/seen
 @load frameworks/intel/do_notice
 @load policy/integration/collective-intel
+@load doh-detect.zeek
 
 redef Intel::read_files += {
   ### Local static additions##
